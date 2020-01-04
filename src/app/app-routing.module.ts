@@ -4,12 +4,20 @@ import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'customers',
-    loadChildren: './customers/customers.module#CustomersModule'
+    path: 'experiencia',
+    loadChildren: './experiencia/experiencia.module#ExperienciaModule'
   },
   {
-    path: 'orders',
-    loadChildren: './orders/orders.module#OrdersModule'
+    path: 'portafolio',
+    loadChildren: './portafolio/portafolio.module#PortafolioModule'
+  },
+  {
+    path: 'contacto',
+    loadChildren: './contacto/contacto.module#ContactoModule'
+  },
+  {
+    path: 'home',
+    loadChildren: './home/home.module#HomeModule'
   },
   {
     path: '',
@@ -21,7 +29,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
-      enableTracing: true, // debuggin purposes only
+      enableTracing: true, // <-- debugging purposes only
       preloadingStrategy: PreloadAllModules
     })
   ],
