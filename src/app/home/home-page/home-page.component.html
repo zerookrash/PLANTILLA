@@ -1,1 +1,30 @@
-<p>home-page works!</p>
+<section>
+  <article class="animated fadeIn">
+      <h2 class="titulo">QUIEN SOY</h2>
+      <p>Como licenciado en informática, puedo decir que soy una persona que toma su vida con pasión y entrega. Como todo ser humano hay momemntos complicados a enfrentar, pero los asumo y busco la mejor solución para obtener el mejor resultado. En el tema laboral, soy una persona que le dedica tiempo a cada tarea para no cometer errores que puedan cuasar un conflicto. </p>
+      <p> profecionalidad es uno de los puntos importantes para mi desempeño, ya que me ayuda a realizar de manera más eficiente las responsabilidades que están a mi cargo. El trabajo en equipo es punto vital para el desarrollo de las tareas, ya que dará un resultado eficaz y no sólo en mi área laboral, sino en todas las áreas, ya que todo es un engranaje.</p>
+  
+      <p>Busco siempre ser propositivo, explorando nuevas alternativas para mi desenvolvimiento como ser humano y como profecional, para tener en consecuencia, un equilibrio en mi vida.</p>
+  </article>
+</section>
+<section class="animated fadeIn delay-1s">
+  <h2 class="titulo">SKILL SET</h2>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover table-dark container mt-3">
+      <caption>Skill Set</caption>
+      <thead>
+        <tr>
+          <th scope="col">Tecnología</th>
+          <th scope="col">Experiencia</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let skill of SkillSetArray">
+          <td> {{skill.tecnologia}} </td>
+          <td>{{skill.experiencia}}</td>
+        </tr  >
+      </tbody>
+    </table>
+  </div>
+</section>
+

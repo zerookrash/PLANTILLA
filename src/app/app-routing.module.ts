@@ -16,12 +16,12 @@ const routes: Routes = [
     loadChildren: './contacto/contacto.module#ContactoModule'
   },
   {
-    path: 'home',
+    path: 'general',
     loadChildren: './home/home.module#HomeModule'
   },
   {
     path: '',
-    redirectTo: '',
+    redirectTo: 'general',
     pathMatch: 'full'
   },
 ];

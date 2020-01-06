@@ -1,4 +1,8 @@
+import { SkillSet } from './../../interfaces/skillSet.interface';
 import { Component, OnInit } from '@angular/core';
+
+import { SikillSetService } from '../../services/sikill-set.service';
+
 
 @Component({
   selector: 'app-home-page',
@@ -7,7 +11,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  constructor() { }
+  SkillSetArray = [];
+  carga = false;
+
+  constructor( public skill: SikillSetService ) {
+    this.skill.getSkills('assets/data/skillSet.json').subscribe( (res: SkillSet) => {
+      res.map( (i) => {
+        this.SkillSetArray.push(i);
+      });
+      console.log(this.SkillSetArray);
+    });
+  }
 
   ngOnInit() {
   }

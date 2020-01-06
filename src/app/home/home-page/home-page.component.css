@@ -1,0 +1,11 @@
+h2.titulo {
+    font-family: 'Gelasio', serif;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+article > p {
+    font-family: 'Gelasio', serif;
+    text-align: justify;
+    font-size: 25px;
+}

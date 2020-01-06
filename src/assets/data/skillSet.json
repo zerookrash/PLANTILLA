@@ -1,0 +1,43 @@
+[
+    {
+        "tecnologia": "HTML",
+        "experiencia": "Avanzado"
+    },
+    {
+        "tecnologia": "CSS",
+        "experiencia": "Avanzado"
+    },
+    {
+        "tecnologia": "JavaScript",
+        "experiencia": "Avanzado"
+    },
+    {
+        "tecnologia": "Botstrap 4",
+        "experiencia": "Avanzado"
+    },
+    {
+        "tecnologia": "Angular 5 al 8",
+        "experiencia": "Avanzado"
+    },
+    {
+        "tecnologia": "Node JS",
+        "experiencia": "Intermiedio"
+    },
+    {
+        "tecnologia": "MOngo DB",
+        "experiencia": "Intermedio"
+    },
+    {
+        "tecnologia": "GraphQL",
+        "experiencia": "Basico"
+    },
+    {
+        "tecnologia": "Flexbox",
+        "experiencia": "Basico"
+    },
+    {
+        "tecnologia": "Flutter",
+        "experiencia": "Basico"
+    }
+    
+]
