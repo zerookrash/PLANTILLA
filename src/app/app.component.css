@@ -1,4 +1,6 @@
 .transparencia {
+    margin-top: 10rem;
+    margin-bottom: 6rem;
     background-color:rgba(156,156,156,.2);
     animation-duration: 3s;
     animation-delay: 2s;

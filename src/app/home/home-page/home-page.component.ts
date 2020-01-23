@@ -11,15 +11,13 @@ import { SikillSetService } from '../../services/sikill-set.service';
 })
 export class HomePageComponent implements OnInit {
 
-  SkillSetArray = [];
+  SkillSetArray;
   carga = false;
 
   constructor( public skill: SikillSetService ) {
-    this.skill.getSkills('assets/data/skillSet.json').subscribe( (res: SkillSet) => {
-      res.map( (i) => {
-        this.SkillSetArray.push(i);
-      });
-      console.log(this.SkillSetArray);
+    this.skill.getSkills('assets/data/skillSet.json')
+      .subscribe( (res: SkillSet) => {
+      this.SkillSetArray = res;
     });
   }
 

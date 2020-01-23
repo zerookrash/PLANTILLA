@@ -10,7 +10,7 @@
 <section class="animated fadeIn delay-1s">
   <h2 class="titulo">SKILL SET</h2>
   <div class="table-responsive">
-    <table class="table table-striped table-bordered table-hover table-dark container mt-3">
+    <table  class="table table-borderless table-dark container mt-3">
       <caption>Skill Set</caption>
       <thead>
         <tr>
@@ -19,7 +19,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let skill of SkillSetArray">
+        <tr scope="row" class="text-aling-center" *ngFor="let skill of SkillSetArray">
           <td> {{skill.tecnologia}} </td>
           <td>{{skill.experiencia}}</td>
         </tr  >

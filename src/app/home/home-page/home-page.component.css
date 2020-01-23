@@ -5,7 +5,18 @@ h2.titulo {
 }
 
 article > p {
-    font-family: 'Gelasio', serif;
+    font-family: 'Ibarra Real Nova', serif;
     text-align: justify;
     font-size: 25px;
+}
+
+table {
+    width: 40%;
+    font-size: 1.5rem;
+    background: rgb(9,86,121);
+    background: linear-gradient(138deg, rgba(9,86,121,1) 0%, rgba(36,121,161,1) 47%, rgba(102,191,231,1) 100%);
+}
+
+table tr {
+    text-align: center;
 }

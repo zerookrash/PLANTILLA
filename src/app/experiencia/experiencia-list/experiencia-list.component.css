@@ -9,9 +9,8 @@
     font-family: 'Playfair Display', serif;
   }
   
-  h1 {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
+  h2, h3 {
+    font-family: 'Gelasio', serif;
   }
   
   .timeline {
